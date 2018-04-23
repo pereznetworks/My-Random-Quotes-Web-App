@@ -49,54 +49,12 @@
           once the #loadQuote button is "clicked"
           it then calls the printQuote function
 
-# Quotes and colors array
-
-    quotes and colors array found in js/data.js
-
-    quotes array
-      is array of 10 quote objects
-      each quote has a quote, source property
-      optionally, some quotes have a citation, year and tag property
-      the year propety is a date stored as an integer in milliseconds counting before or past Jan. 1, 1970
-
-    colors array
-      is an array of 10 color strings
-      each color is a hex color string
-
-# the getRandomQoute function
-
-    the getRandomQoute found in js/getRandom.js
-
-      the previous random number (randomQuoteNumber
-          is pushed onto the end of the randomQuoteArray
-
-      to get a new random Number
-        math.Random() * object-array.length is used to get a random float value
-        math.Floor() then rounds down, removing any decimal values
-
-      an if/else conditional evaluates the value in the previous number and new random number
-          if the new random number DO NOT match the previous number
-            then the new random number is returned
-          if the previous and new random numbers DO match
-            then get another random number and return it
-
-      the randomQuoteNumber is used as an index
-          to return a quote object from the quotes array
-          ... return quotes[randomQuoteNumber]
-
-# the getRandomColor function
-
-    the same process implemented in getRandomQoute is used to get a random color
-        using a randomColorNumber and randomColorArray
-          ... return colors[randomColorNumber]
-
-
 # printQuote function
 
     found in js/printQuote.js
 
-    before the printQuote function actually runs is called...
-      selection of the body, .quote-body, #loadQuote elements and assigned these to respective variables
+    before the printQuote function actually runs....
+      selection of the body, .quote-body, #loadQuote elements and assigned to respective variables
       a myInterval values is set to 30000
         these variables are declared and initialized here because the printQuote function requires them
         but the printQuote function must be loaded before the scripts.js is loaded
@@ -121,3 +79,44 @@
       the random color string is concatenated and assigned directly to the body and loadQuote style attributes
 
        myInterval is set back to 30 secs using setInterval(myInterval, 30000)
+
+# Quotes and colors array
+
+    quotes and colors array found in js/data.js
+
+    quotes array
+      is array of 10 quote objects
+      each quote has a quote, source property
+      optionally, some quotes have a citation, year and tag property
+      the year propety is a date stored as an integer in milliseconds counting before or past Jan. 1, 1970
+
+    colors array
+      is an array of 10 color strings
+      each color is a hex color string
+
+# the getRandomQoute function
+
+    the getRandomQoute found in js/getRandom.js
+
+      the previous random number returned
+          is pushed onto the end of the randomQuoteArray
+
+      to get a new random Number
+        math.Random() * object-array.length is used to get a random float value
+        math.Floor() then rounds down, removing any decimal values
+
+      an if/else conditional evaluates the value in the previous number and new random number
+          if the new random number DO NOT match the previous number
+            then the new random number is returned
+          if the previous and new random numbers DO match
+            then get another random number and return it
+
+      the randomQuoteNumber is used as an index
+          to return a quote object from the quotes array
+          ... return quotes[randomQuoteNumber]
+
+# the getRandomColor function
+
+    the same process implemented in getRandomQoute is used to get a random color
+        using a randomColorNumber and randomColorArray
+          ... return colors[randomColorNumber]
