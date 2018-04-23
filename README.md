@@ -60,7 +60,7 @@
         but the printQuote function must be loaded before the scripts.js is loaded
 
     after printQuote is called
-      a clearInterval(myInterval) runs clearing or resets the interval
+      a clearInterval(myInterval) runs clearing or reseting the interval
       getRandomQuote is called, storing the returned random quote object in a displayQuote var
       getRandomColor is called, storing the returned random color string in a displayColor var
 
