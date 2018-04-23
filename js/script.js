@@ -1,7 +1,7 @@
 // TeamTreeHouse - Project 1 - random qoute generator
 
-// setting interval value ahead of clearInterval() and setInterval() to be used in printQuote
-let myInterval = 0;
+// setting myInterval value ahead of clearInterval() and setInterval() to be used in printQuote
+let myInterval = 30000;
 
 // random number vars and array to track last qoute and color displayed
 let randomQuoteNumber = 0;
