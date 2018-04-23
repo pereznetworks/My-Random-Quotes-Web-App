@@ -2,15 +2,17 @@
 
 # main index.html, normalize.css, styles.css and script.js
 
-  the entire app was tested on the following browsers
+  the entire app was tested on the following browsers:
+
       latest release of macOS Safari and Chrome
       latest release of Windows10 Edge and Chrome
       latest release of iOS Safari on iPhone 6 and iPad Air
 
-  most of the basic html and css that was provided was used
-      with some changes outlined below
-          to allow for more responsive browsing experience on mobile device and PC/MAC internet browsers
-          some tweaks to padding, margins, font and alignment were made
+  most of the basic html, css that was provided was used with some changes outlined below:
+
+      to allow for more responsive browsing experience
+          on mobile device and PC/MAC internet browsers
+      some tweaks to padding, margins, font and alignment were made
           to try to make the most of screen space provided by various devices and computers
 
 # the main app
