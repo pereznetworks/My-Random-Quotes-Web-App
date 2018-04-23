@@ -19,14 +19,16 @@
 
   the main app is run by js/scripts.js
 
-  the scripts.js calls the printQuote function once
+        the scripts.js calls the printQuote function once
         so a random Quote and background color will appear when the index.html page first loads
 
-  the #loadQuote button element is selected and assigned to a const variable in printQuote.js
+  the #loadQuote button element
 
-    the eventListener to the #loadQuote button is otherwise unchanged
-        once the #loadQuote button is "clicked"
-        it then calls the printQuote function
+        is selected and assigned to a const variable in printQuote.js
+
+        the eventListener to the #loadQuote button is otherwise unchanged
+          once the #loadQuote button is "clicked"
+          it then calls the printQuote function
 
 # CSS and HTML layout changes
 
