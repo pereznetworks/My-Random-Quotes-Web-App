@@ -15,21 +15,6 @@
       some tweaks to padding, margins, font and alignment were made
           to try to make the most of screen space provided by various devices and computers
 
-# the main app
-
-  the main app is run by js/scripts.js
-
-        the scripts.js calls the printQuote function once
-        so a random Quote and background color will appear when the index.html page first loads
-
-  the #loadQuote button element
-
-        is selected and assigned to a const variable in printQuote.js
-
-        the eventListener to the #loadQuote button is otherwise unchanged
-          once the #loadQuote button is "clicked"
-          it then calls the printQuote function
-
 # CSS and HTML layout changes
 
     moved style of #quote-box for position, top, left, right and width
@@ -47,6 +32,22 @@
     added meta tag name=viewport, for RWD, to index.html
     and tweaked styling of .container div elements and sub-elements
       for mobile devices using @media (max-width: 420px)
+
+
+# the main app
+
+  the main app is run by js/scripts.js
+
+        the scripts.js calls the printQuote function once
+        so a random Quote and background color will appear when the index.html page first loads
+
+  the #loadQuote button element
+
+        is selected and assigned to a const variable in printQuote.js
+
+        the eventListener to the #loadQuote button is otherwise unchanged
+          once the #loadQuote button is "clicked"
+          it then calls the printQuote function
 
 # Quotes and colors array
 
