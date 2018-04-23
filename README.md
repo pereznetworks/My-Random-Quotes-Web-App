@@ -3,31 +3,28 @@
 # main index.html, normalize.css, styles.css and script.js
 
 the entire app was tested on the following browsers
-
-  latest release of macOS Safari and Chrome
-
-  latest release of Windows10 Edge and Chrome
-  
-  latest release of iOS Safari on iPhone 6 and iPad Air
+      latest release of macOS Safari and Chrome
+      latest release of Windows10 Edge and Chrome
+      latest release of iOS Safari on iPhone 6 and iPad Air
 
   most of the basic html and css that was provided was used
-    with some changes outlined below
-      to allow for more responsive browsing experience on mobile device and PC/MAC internet browsers
-      some tweaks to padding, margins, font and alignment were made
-        to try to make the most of screen space provided by various devices and computers
+      with some changes outlined below
+          to allow for more responsive browsing experience on mobile device and PC/MAC internet browsers
+          some tweaks to padding, margins, font and alignment were made
+          to try to make the most of screen space provided by various devices and computers
 
 # the main app
 
   the main app is run by js/scripts.js
 
   the scripts.js calls the printQuote function once
-    so a random Quote and background color will appear when the index.html page first loads
+        so a random Quote and background color will appear when the index.html page first loads
 
   the #loadQuote button element is selected and assigned to a const variable in printQuote.js
 
-  the eventListener to the #loadQuote button otherwise unchanged
-    once the #loadQuote button is "clicked"
-    it then calls the printQuote function
+    the eventListener to the #loadQuote button is otherwise unchanged
+        once the #loadQuote button is "clicked"
+        it then calls the printQuote function
 
 # CSS and HTML layout changes
 
