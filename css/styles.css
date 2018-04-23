@@ -120,7 +120,7 @@ body {
   }
   .quote {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .quote:before, .quote:after {
     font-size: 1rem;
@@ -139,19 +139,19 @@ body {
     position: absolute;
   }
   .source {
-    line-height: 1.5rem;
+    line-height: 1rem;
     text-align: right;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   .citation  {
-    line-height: 1.5rem;
+    line-height: 1rem;
     text-align: right;
-    font-size: .8rem;
+    font-size: 1rem;
   }
 
   .tag{
-    font-size: .8em;
+    font-size: 1em;
     line-height: 1em;
     text-align: right;
     margin-right: 4em;
