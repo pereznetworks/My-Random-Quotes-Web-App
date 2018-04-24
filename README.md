@@ -1,5 +1,9 @@
 # TechDegree Project 1  - Random Quotes
 
+  this is a TeamTreehouse Tech Degree Unit 1, Project 1 for learning javascript, html/css
+  the separate js, css and html files are for ease of reference in development
+  the code in this project is NOT FOR A PRODUCTION environment
+
 # main index.html, normalize.css, styles.css and script.js
 
   the entire app was tested on the following browsers:
