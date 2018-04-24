@@ -1,6 +1,6 @@
 # TechDegree Project 1  - Random Quotes
 
-  this is a TeamTreehouse Tech Degree Unit 1, Project 1 for learning javascript, html/css
+  this is Project 1, part of TeamTreehouse Tech Degree Unit 1, for learning javascript and html/css
   the separate js, css and html files are for ease of reference in development
   the code in this project is NOT FOR A PRODUCTION environment
 
