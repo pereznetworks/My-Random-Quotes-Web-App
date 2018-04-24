@@ -20,32 +20,21 @@ function getRandomQoute(quotes){
   if (randomQuoteArray.length > quotes.length) {
       for(let i = (randomQuoteArray.length - quotes.length); i < randomQuoteArray.length ; i++){
         // if previous randomNumber returned is EQUAL to any get a new randomNumber
-        console.log("index: " + i );
-        console.log("randomQuoteArray.[i]: " + randomQuoteArray[i] );
         if ( randomQuoteNumber === randomQuoteArray[i] ) {
-          console.log("oops these 2 numbers match");
-          console.log("randomQuoteArray[i]       : " + randomQuoteArray[i]);
-          console.log("cureent randomQuoteNumber : " + randomQuoteNumber);
           randomQuoteNumber =  Math.floor(Math.random() * quotes.length);
           i = (randomQuoteArray.length - quotes.length);
         }
       }
     } else {
       for(let i = 0; i < randomQuoteArray.length ; i++){
-        // if previous randomNumber returned is EQUAL to any get a new randomNumber
-        console.log("index: " + i );
-        console.log("randomQuoteArray.[i]: " + randomQuoteArray[i] );
+        // if previous randomNumber returned is EQUAL to any of the last 10 get a new randomNumber
         if ( randomQuoteNumber === randomQuoteArray[i] ) {
-          console.log("oops these 2 numbers match");
-          console.log("randomQuoteArray[i]       : " + randomQuoteArray[i]);
-          console.log("cureent randomQuoteNumber : " + randomQuoteNumber);
           randomQuoteNumber =  Math.floor(Math.random() * quotes.length);
           i = 0;
         }
       }
     }
 
-  console.log("returnning randomQuoteNumber: " + randomQuoteNumber);
   return quotes[randomQuoteNumber];
 }
 
@@ -62,31 +51,22 @@ function getRandomColor(colors){
   if (randomColorArray.length > colors.length) {
       for(let i = (randomColorArray.length - colors.length); i < randomColorArray.length ; i++){
         // if previous randomNumber returned is EQUAL to any get a new randomNumber
-        console.log("index: " + i );
-        console.log("randomColorArray[i]: " + randomColorArray[i] );
         if ( randomColorNumber === randomColorArray[i] ) {
-          console.log("oops these 2 numbers match");
-          console.log("randomColorArray[i]       : " + randomColorArray[i]);
-          console.log("cureent randomColorNumber : " + randomColorNumber);
           randomColorNumber =  Math.floor(Math.random() * colors.length);
           i = (randomColorArray.length - colors.length);
         }
       }
     } else {
       for(let i = 0; i < randomColorArray.length ; i++){
-        // if previous randomNumber returned is EQUAL to any get a new randomNumber
+        // if previous randomNumber returned is EQUAL to any of the last 10 get a new randomNumber
         console.log("index: " + i );
         console.log("randomColorArray[i]: " + randomColorArray[i] );
         if ( randomColorNumber === randomColorArray[i] ) {
-          console.log("oops these 2 numbers match");
-          console.log("randomColorArray[i]       : " + randomColorArray[i]);
-          console.log("cureent randomColorNumber : " + randomColorNumber);
           randomColorNumber =  Math.floor(Math.random() * colors.length);
           i = 0;
         }
       }
     }
 
-  console.log("returnning randomColorNumber: " + randomColorNumber);
   return colors[randomColorNumber];
 }
