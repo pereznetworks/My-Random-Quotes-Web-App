@@ -105,11 +105,26 @@
         math.Random() * object-array.length is used to get a random float value
         math.Floor() then rounds down, removing any decimal values
 
-      an if/else conditional evaluates the value in the previous number and new random number
-          if the new random number DO NOT match the previous number
-            then the new random number is returned
-          if the previous and new random numbers DO match
-            then get another random number and return it
+      original:
+          an if/else conditional evaluates the value in the previous number and new random number
+            if the new randomQuoteNumber DOES NOT match the previous number
+              then the new randomQuoteNumber is returned
+            if the previous and new randomQuoteNumbers DO match
+              then get another randomQuoteNumber and return it
+
+      updated:
+          if/else checks that random number Array.length is less then quotes.length
+           if true for loop index starts at 0
+           if false for loop index start at ...
+              random number array.length - quotes.length
+          for loop forces iteration through entire random number Array.length
+              condition checks if...
+                the current randomQuoteNumber matches any previous random numbers
+                if true, then generate a new randomQuoteNumber
+                reset index to 0
+                    or reset index to random number array.length - quotes.length
+              once the current randomQuoteNumber DOES NOT MATCH any of the last 10  
+                then loop breaks
 
       the randomQuoteNumber is used as an index
           to return a quote object from the quotes array
