@@ -1,5 +1,5 @@
 // setting myInterval value ahead of clearInterval() and setInterval() to be used in printQuote
-let myInterval = 30000;
+let myInterval = 15000;
 
 //selecting html the body and "qoute-box" div elements
 const quoteBox = document.getElementById("quote-box");
@@ -50,7 +50,7 @@ function printQuote(){
    loadQuote.style = `color:black;background-color:${displayColor};`;
 
    // reset myInterval, by setting Interval to wait 30 secs before running printQuote again
-   myInterval = setInterval(function (){printQuote();}, 30000);
+   myInterval = setInterval(function (){printQuote();}, 15000);
 
 
 };
