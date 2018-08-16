@@ -2,11 +2,11 @@
 
 /* required files
    js/data.js  - quotes and colors array
-   js/getRandom.js - functions for gettings random quotes and random colors
-   js/printQuote - function for concatenating quote object into htmlString and printing to html 
+   js/getRandom.js - functions for getting random quotes and random colors
+   js/printQuote - function for concatenating quote object into htmlString and printing to html
 */
 
-//calling printQuote once so that a quote appears when the html first document loads
+//calling printQuote once so that a quote appears when the html document loads the first time
 printQuote();
 
 // event listener to respond to clicks on "Show another quote" button
