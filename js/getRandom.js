@@ -43,7 +43,7 @@ function getRandomColor(colors){
 
   // storing previous randomColorNumber
   randomColorArray.push(randomColorNumber);
-  console.dir(randomColorArray);
+  //console.dir(randomColorArray);
 
   // getting a randomColorNumber
   randomColorNumber = Math.floor(Math.random() * colors.length);
