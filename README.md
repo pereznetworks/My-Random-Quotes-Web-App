@@ -4,7 +4,7 @@
 
     for learning javascript and html/css
     the separate js, css and html files are for ease of reference in development
-    the code in this project is NOT FOR A PRODUCTION environment
+    the code in this project is NOT OPTIMZED FOR A PRODUCTION environment
 
 # main index.html, normalize.css, styles.css and script.js
 
