@@ -3,6 +3,10 @@
 
 ## main index.html, normalize.css, styles.css and script.js
 
+- added div with id of controlButtons, absolute positioning, pinned to bottom of html body
+  - will be adding more buttons to controlButtons
+  - for only now, button ha id of loadQuote
+
 - the entire app was tested on the following browsers:
   - latest release of macOS Safari and Chrome
   - latest release of Chrome, on Windows, macOS and Android
