@@ -1,4 +1,4 @@
-# TechDegree Project 1  - My Random Quotes
+# My Random Quotes
 
   - this was originally built as part of Project 1 of TeamTreehouse Tech Degree, Full Stack JavaScript, Unit 1.
 
