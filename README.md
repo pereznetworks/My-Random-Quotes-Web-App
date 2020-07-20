@@ -8,8 +8,12 @@
 
   - The "My Random Quotes" Web App is simple.
     - It's just css styling and some javascript. But in this simplicity is the beauty.
+    
 
   - I am proud to say, that is one those web apps that provides users with a beautiful, simple user experience.
+
+
+  - The challenge will be to maintain this simplicity as more features and functionality are added.
 
 ## Future Release Plans
 
