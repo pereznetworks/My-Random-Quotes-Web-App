@@ -1,5 +1,5 @@
 # Technical README
-  - for My Random Quote
+  - So this a kind of code-review for My Random Quote web app.
 
 ## main index.html, normalize.css, styles.css and script.js
 
