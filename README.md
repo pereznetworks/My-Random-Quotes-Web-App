@@ -7,7 +7,7 @@
 ## Beautiful Simplicity
 
   - The "My Random Quotes" Web App is simple.
-    - It's just css styling and some javascript. But in this simplicity is the beauty.
+    - It's just css styling, javascript and some json. But in this simplicity is the beauty.
 
 
   - I am proud to say, that is one those web apps that provides users with a beautiful, simple user experience.
