@@ -17,7 +17,7 @@
 
 ### Obviously, I will want to add more quotes, lots and lots of quotes.
 
-### I plan to release using various platforms and frameworks
+### Planned releases
   - a javascript-free version
   - a bootstrap version
   - a version that uses python
@@ -25,7 +25,7 @@
   - a version made entirely using Xcode
   - a version made entirely using Android Studio
 
-### Feature additions
+### Planned feature additions
   - add music to quote displayed
   - add images and/or video to quote being displayed
   - different images/video/music for each different quote
