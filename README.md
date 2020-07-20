@@ -21,7 +21,7 @@
   - a version made entirely using Xcode
   - a version made entirely using Android Studio
 
-### I will be added the following features:
+### I will be adding the following features:
   - play music with quote
   - display images and/or play video when quote
   - different images/video/music for each different quote
