@@ -1,6 +1,6 @@
 # TechDegree Project 1  - Random Quotes
 
-- this is Project 1, part of TeamTreehouse, Tech Degree, Full Stack JavaScript, Unit 1,
+- this is Project 1, part of TeamTreehouse, Tech Degree, Full Stack JavaScript, Unit 1
 
 ## main index.html, normalize.css, styles.css and script.js
 
