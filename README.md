@@ -8,7 +8,7 @@
 
   - The "My Random Quotes" Web App is simple.
     - It's just css styling and some javascript. But in this simplicity is the beauty.
-    
+
 
   - I am proud to say, that is one those web apps that provides users with a beautiful, simple user experience.
 
@@ -29,7 +29,7 @@
 
 ### I will be adding the following features:
   - play music with quote
-  - display images and/or play video when quote
+  - display images and/or play video with quote
   - different images/video/music for each different quote
   - give the user the ability to add more Quotes
   - give the user the ability to save and launch their own my random quotes
