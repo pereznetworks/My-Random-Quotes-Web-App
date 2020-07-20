@@ -15,7 +15,7 @@
 
 ## Future Plans
 
-### Obviously, I will want to add my quotes, lots and lots of quotes.
+### Obviously, I will want to add more quotes, lots and lots of quotes.
 
 ### I plan to release using various platforms and frameworks
   - a javascript-free version
