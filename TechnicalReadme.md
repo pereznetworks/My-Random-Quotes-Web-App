@@ -1,11 +1,13 @@
 # Technical README
   - So this a kind of code-review for My Random Quote web app.
 
-## main index.html, normalize.css, styles.css and script.js
+## Changes as of 7/20/2020
+  - part of move towards porting to other frameworks and mobile device development
+    - added div with id of controlButtons, absolute positioning, pinned to bottom of html body
+    - will be adding more buttons to controlButtons
+    - for only now, button ha id of loadQuote
 
-- added div with id of controlButtons, absolute positioning, pinned to bottom of html body
-  - will be adding more buttons to controlButtons
-  - for only now, button ha id of loadQuote
+## main index.html, normalize.css, styles.css and script.js
 
 - the entire app was tested on the following browsers:
   - latest release of macOS Safari and Chrome
