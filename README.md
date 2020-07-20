@@ -1,6 +1,6 @@
 # TechDegree Project 1  - My Random Quotes
 
-  - this is Project 1, part of TeamTreehouse, Tech Degree, Full Stack JavaScript, Unit 1.
+  - this was originally built as part of Project 1 of TeamTreehouse Tech Degree, Full Stack JavaScript, Unit 1.
 
 ## Beautiful Simplicity
 
