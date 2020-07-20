@@ -1,10 +1,9 @@
 # TechDegree Project 1  - Random Quotes
 
 - this is Project 1, part of TeamTreehouse, Tech Degree, Full Stack JavaScript, Unit 1,
-
- - for learning javascript and html/css
- - the separate js, css and html files are for ease of reference in development
- - the code in this project is NOT OPTIMIZED FOR A PRODUCTION environment
+  - for learning javascript and html/css
+  - the separate js, css and html files are for ease of reference in development
+  - the code in this project is NOT OPTIMIZED FOR A PRODUCTION environment
 
 ## main index.html, normalize.css, styles.css and script.js
 
