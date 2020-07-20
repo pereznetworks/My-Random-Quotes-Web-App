@@ -13,11 +13,11 @@
 
   - I am proud to say, that is one those web apps that provide users with a beautiful, simple user experience.
 
-## Future Plans
+## Future Release Plans
 
 ### Obviously, I will want to add more quotes, lots and lots of quotes.
 
-### Planned releases
+### I plan to release various versions:
   - a javascript-free version
   - a bootstrap version
   - a version that uses python
@@ -25,11 +25,11 @@
   - a version made entirely using Xcode
   - a version made entirely using Android Studio
 
-### Planned feature additions
-  - add music to quote displayed
-  - add images and/or video to quote being displayed
+### I will be added the following features:
+  - play music with quote
+  - display images and/or play video when quote
   - different images/video/music for each different quote
   - give the user the ability to add more Quotes
-  - give the user the ability to save and launch their own random quotes web app
+  - give the user the ability to save and launch their own my random quotes
 
 #### [Technical README available here](TechnicalReadme.md#technical-readme)
