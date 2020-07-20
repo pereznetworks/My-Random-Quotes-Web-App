@@ -32,6 +32,6 @@
   - display images and/or play video with quote
   - different images/video/music for each different quote
   - give the user the ability to add more Quotes
-  - give the user the ability to save and launch their own my random quotes
+  - give the user the ability to save and launch their own 'my random quotes'
 
 #### [Technical README available here](TechnicalReadme.md#technical-readme)
