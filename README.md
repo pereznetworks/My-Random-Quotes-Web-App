@@ -8,7 +8,7 @@
     - It's just css styling and some javascript. But in this simplicity is the beauty.
 
 
-  - Are not the best things in life, those that are simple, beautiful yet powerful? This is also true of technology.
+  - Some of the best things in life, those that are simple, beautiful yet powerful? This is also true of technology.
 
 
   - I am proud to say, that is one those web apps that provide users with a beautiful, simple user experience.
