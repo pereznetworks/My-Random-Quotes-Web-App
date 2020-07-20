@@ -32,4 +32,4 @@
   - give the user the ability to add more Quotes
   - give the user the ability to save and launch their own random quotes web app
 
-#### [Technical README available here](TechnicalREADME.md)
+#### [Technical README available here](TechnicalReadme.md#Technical-README)
