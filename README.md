@@ -34,4 +34,5 @@
   - give the user the ability to add more Quotes
   - give the user the ability to save and launch their own 'my random quotes'
 
-#### [Technical README available here](TechnicalReadme.md#technical-readme)
+#### TLDR
+  - [Technical README available here](TechnicalReadme.md#technical-readme)
