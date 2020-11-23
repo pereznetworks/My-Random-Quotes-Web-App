@@ -63,6 +63,7 @@ body {
   line-height: 1.5rem;
   text-align: right;
   font-size: 1rem;
+  text-align: center;
 }
 
 .citation  {
@@ -70,6 +71,7 @@ body {
   line-height: 1.5rem;
   text-align: right;
   font-size: 1rem;
+  text-align: center;
 }
 .citation:before {
   content: ", ";
@@ -86,6 +88,7 @@ body {
   font-style: normal;
   position: relative;
   margin: 0;
+  text-align: center;
 }
 .tag:before{
   content: "category: ";
