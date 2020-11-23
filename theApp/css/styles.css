@@ -35,7 +35,7 @@ body {
 }
 .quote {
   font-size: 2em;
-  text-align: left;
+  text-align: center;
   font-weight: 400;
   line-height: 1.1;
   position: relative;
@@ -137,7 +137,7 @@ body {
     width: 80%;
   }
   .quote {
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
   }
   .quote:before, .quote:after {
