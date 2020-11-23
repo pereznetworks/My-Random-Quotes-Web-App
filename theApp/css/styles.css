@@ -42,12 +42,12 @@ body {
   margin: 0;
   }
 .quote:before, .quote:after {
-  line-height: 2.5rem;
+  /* line-height: 2.5rem; */
   position: absolute;
 }
 .quote:before {
   content: "“";
-  top: .25em;
+  /* top: .25em; */
   left: -.5em;
 }
 .quote:after {
