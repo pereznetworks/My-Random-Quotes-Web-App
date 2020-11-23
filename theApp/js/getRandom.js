@@ -12,7 +12,7 @@ function getRandomQoute(quotes){
 
   // storing previous randomQuoteNumber
   randomQuoteArray.push(randomQuoteNumber);
-  console.dir(randomQuoteArray);
+  // console.dir(randomQuoteArray);
 
   // getting a randomQuoteNumber
   randomQuoteNumber = Math.floor(Math.random() * quotes.length);
@@ -59,8 +59,8 @@ function getRandomColor(colors){
     } else {
       for(let i = 0; i < randomColorArray.length ; i++){
         // if previous randomNumber returned is EQUAL to any of the last 10 get a new randomNumber
-        console.log("index: " + i );
-        console.log("randomColorArray[i]: " + randomColorArray[i] );
+        // console.log("index: " + i );
+        // console.log("randomColorArray[i]: " + randomColorArray[i] );
         if ( randomColorNumber === randomColorArray[i] ) {
           randomColorNumber =  Math.floor(Math.random() * colors.length);
           i = 0;

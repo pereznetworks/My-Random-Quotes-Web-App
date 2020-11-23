@@ -16,7 +16,7 @@
 body {
   text-align: center;
   background-color:#800080;
-  font-size: 3rem;
+  font-size: 16pt;
   color: black;
   font-family: 'Playfair Display', serif;
 }
@@ -27,11 +27,14 @@ body {
   left: 25%;
   right: 10%;
   width: 50%;
+  height: 80%;
 }
 #quote-box {
   line-height: .5;
+  height: 80%;
 }
 .quote {
+  font-size: 2em;
   text-align: left;
   font-weight: 400;
   line-height: 1.1;
@@ -53,9 +56,9 @@ body {
   margin-left: .1em;
   position: absolute;
 }
-.source:before {
+/* .source:before {
   content: "—";
-}
+} */
 .source {
   line-height: 1.5rem;
   text-align: right;
@@ -96,6 +99,7 @@ body {
 }
 #loadQuote {
   width: 12em;
+  font-size: .5em;
   display: inline-block;
   top: 50%;
   left: 50%;
@@ -106,7 +110,7 @@ body {
   border: 2px solid black;
   color: #fff;
   background-color: #36b55c;
-  padding: 15px;
+  padding: 5px;
   transition: .5s ;
 }
 #loadQuote:hover {
@@ -119,14 +123,14 @@ body {
 @media (max-width: 420px) {
   .container{
     position: absolute;
-    top: 10%;
-    left: 5%;
-    right: 5%;
+    top: 20%;
+    left: 10%;
+    right: 10%;
     width: 80%;
   }
   .quote {
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .quote:before, .quote:after {
     font-size: 1rem;
@@ -148,18 +152,20 @@ body {
     line-height: 1rem;
     text-align: right;
     font-size: 1rem;
+    text-align: center;
   }
 
   .citation  {
     line-height: 1rem;
     text-align: right;
     font-size: 1rem;
+    text-align: center;
   }
 
   .tag{
-    font-size: 1em;
+    font-size: 1rem;
     line-height: 1em;
-    text-align: right;
+    text-align: center;
     margin-right: 4em;
     font-style: normal;
     position: relative;
