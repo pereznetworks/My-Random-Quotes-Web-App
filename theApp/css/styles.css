@@ -98,7 +98,7 @@ body {
   left: 10%;
 }
 #loadQuote {
-  font-size: .8em;
+  font-size: 1em;
   display: inline-block;
   text-decoration: none;
   transition: .3s;
