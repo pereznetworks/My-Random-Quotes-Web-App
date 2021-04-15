@@ -52,7 +52,7 @@ body {
   height: 80%;
 }
 .quote {
-  font-size: 2em;
+  font-size: 3em;
   text-align: left;
   width:auto;
   font-weight: 400;
@@ -176,7 +176,7 @@ body {
 
 }
 
-@media (min-width: 620px){
+@media (min-width: 620px and max-width: 820px){
   .quote {
     font-size: 1.2em;
   }
