@@ -4,7 +4,16 @@
 
 #### **[Online version of My Random Quotes](https://pereznetworks.github.io/My-Random-Quotes-Web-App)**
 
-## Standard UI Flat Icons
+## **NEW**
+
+- Formating and Spacing for Mobile Devices
+
+  - increased usable space of .container div
+  - increased font size for large screens
+  - new location of and smaller flat icon for loadQuote button
+  - new font color
+
+- Standard UI Flat Icons
 
   - I finally added a flat icon for loading another qoute. I am using a free CDN.
 
