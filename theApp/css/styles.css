@@ -168,4 +168,8 @@ body {
     margin: 0;
   }
 
+  #loadQuote {
+    font-size: 1.2em;
+  }
+
 }
