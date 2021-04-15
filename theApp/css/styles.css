@@ -3,15 +3,15 @@
 /* moved position, top, left, right and width from #quote-box to .container
     elements with-in .container div, including #loadQuote button,
     keep position and spacing relative to each other
-    and so appear to move when width and hieght of web page adjusted */
+    and adjusts when browser window or screen orientation changes */
 
 /* since as background-color is set to random colors
-   font color of elements changed to #808080 so text is more readible and reduce "neon" affect
+   font color of elements changed to #212120, very very dark grey, so text is more readible and reduce "neon" affect
 
 /* added styling for the quote object's tag element */
 
 /* added meta tag name=viewport RWD, to index.html
-   and tweeked styling for mobile devices using @media (max-width: 420px)  */
+   and tweeked styling for mobile devices using @media (max-width: 420px and min-width=620px)  */
 
 body {
   text-align: center;
