@@ -4,6 +4,12 @@
 
 #### **[Online version of My Random Quotes](https://pereznetworks.github.io/My-Random-Quotes-Web-App)**
 
+## Standard UI Flat Icons
+
+  - I finally added a flat icon for loading another qoute. I am using a free CDN.
+
+#### **[Check out CoreUI.io/icons on GitHub](https://github.com/coreui/coreui-icons)**
+
 ## Beautiful Simplicity
 
   - The "My Random Quotes" Web App is simple.
