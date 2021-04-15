@@ -121,7 +121,7 @@ body {
   .container{
     position: absolute;
     top: 20%;
-    left: 5%;
+    left: 10%;
     right: 5%;
     width: 90%;
   }
@@ -172,4 +172,10 @@ body {
     font-size: 1.2em;
   }
 
+}
+
+@media (min-width: 620px){
+  .quote {
+    font-size: 1.2em;
+  }
 }
