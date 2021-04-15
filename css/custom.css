@@ -1,5 +1,9 @@
 /* css for Captsone TD-Project12 web page  */
 
+.new {
+  font-style: oblique;
+}
+
 .navbar .navbar-brand {
   color: rgba(255, 255, 255, 0.85);
   font-size: 1rem;

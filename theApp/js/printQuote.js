@@ -47,7 +47,7 @@ function printQuote(){
    // and assign randomColorNumber, stored in the displayColor var, to the Body element background-color attribute
    body[0].style = `background-color:${displayColor};`;
   // and assign the displayColor also to the loadQuote button element background-color attribute
-   loadQuote.style = `color:black;background-color:${displayColor};`;
+   loadQuote.style = `background-color:${displayColor};`;
 
    // reset myInterval, by setting Interval to wait 30 secs before running printQuote again
    myInterval = setInterval(function (){printQuote();}, 15000);

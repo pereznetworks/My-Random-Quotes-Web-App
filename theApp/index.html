@@ -6,17 +6,19 @@
   <title>Random Quotes</title>
   <link rel="shortcut icon" href="#" />
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/free.min.css">
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+  <div id="controlButtons">
+    <button id="loadQuote"><i class="cil-reload"></i></button>
+  </div>
   <div class="container">
     <div id="quote-box">
     </div>
   </div>
-  <div id="controlButtons">
-   <button id="loadQuote">Show another quote</button>
-  </div>
+  <!-- -->
   <script src="js/data.js"></script>
   <script src="js/getRandom.js"></script>
   <script src="js/printQuote.js"></script>
