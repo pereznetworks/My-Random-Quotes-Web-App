@@ -1,6 +1,6 @@
 # My Random Quotes
 
-  - this was originally built as part of Project 1 of TeamTreehouse Tech Degree, Full Stack JavaScript, Unit 1.
+  - originally built as part of TeamTreehouse Tech Degree, Full Stack JavaScript, Unit 1.
 
 #### **[Online version of My Random Quotes](https://pereznetworks.github.io/My-Random-Quotes-Web-App)**
 
