@@ -15,9 +15,12 @@
 
 - Standard UI Flat Icons
 
-  - I finally added a flat icon for loading another qoute. I am using a free CDN.
+  - I am considering added flat icons for standard UI
+    - like loading another qoute.
+  - for now I have replaced the old "load another qoute" button with a special char instead
+ - there are many but I would like to use flat ui icons that are standards based and open source
 
-#### **[Check out CoreUI.io/icons on GitHub](https://github.com/coreui/coreui-icons)**
+#### **[Check out one option I am considering : CoreUI.io/icons on GitHub](https://github.com/coreui/coreui-icons)**
 
 ## Beautiful Simplicity
 
