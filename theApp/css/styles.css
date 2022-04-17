@@ -29,7 +29,7 @@ body {
   left: 5%;
 }
 #loadQuote {
-  font-size: 1em;
+  font-size: 1.6em;
   display: inline-block;
   text-decoration: none;
   transition: .3s;
