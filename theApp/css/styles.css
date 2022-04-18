@@ -74,7 +74,8 @@ body {
 .quote:before {
   content: "“";
   /* top: .25em; */
-  left: -.5em;
+  margin-left: -.5em;
+  position: absolute;
 }
 .quote:after {
   content: "”";
