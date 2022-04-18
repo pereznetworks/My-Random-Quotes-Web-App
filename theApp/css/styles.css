@@ -88,17 +88,16 @@ body {
 } */
 .source {
   line-height: 1rem;
-  text-align: right;
-  font-size: 1rem;
   text-align: center;
+  font-size: 1rem;
+  /* text-align: right; */
 }
 
 .citation  {
   font-style: italic;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   text-align: right;
   font-size: 1rem;
-  text-align: center;
 }
 .citation:before {
   content: ", ";
@@ -119,4 +118,30 @@ body {
 }
 .tag:before{
   content: "category: ";
+}
+
+@media screen and (min-width: 768px) {
+
+  #loadQuote {
+    font-size: 1.4em;
+  }
+
+  .mid-container {
+    top: 15%;
+  }
+  .quote {
+    font-size: 2em;
+  }
+  .source {
+    font-size: 1.6em;
+    line-height: 1.8rem;
+  }
+  .citation {
+    font-size: .8em;
+    line-height: 1.8rem;
+  }
+  .tag {
+    font-size: 1em;
+  }
+
 }
