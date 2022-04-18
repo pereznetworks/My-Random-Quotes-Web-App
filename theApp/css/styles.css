@@ -1,17 +1,9 @@
 /* layout changes...*/
 
-/* moved position, top, left, right and width from #quote-box to .container
-    elements with-in .container div, including #loadQuote button,
-    keep position and spacing relative to each other
-    and adjusts when browser window or screen orientation changes */
+/* mobile first */
 
-/* since as background-color is set to random colors
-   font color of elements changed to #212120, very very dark grey, so text is more readible and reduce "neon" affect
-
-/* added styling for the quote object's tag element */
-
-/* added meta tag name=viewport RWD, to index.html
-   and tweeked styling for mobile devices using @media (max-width: 420px and min-width=620px)  */
+/* initial css defines smallest screen
+media queries define larger screens */
 
 body {
   text-align: center;
@@ -23,14 +15,18 @@ body {
 
 /* for the app */
 
-#controlButtons {
+.controlButtons {
   position: absolute;
-  top: 8%;
+  top: 5%;
   left: 5%;
-}
+  right: 80%;
+  width: 80%;
+  height: 10%;
+  }
+
 #loadQuote {
-  font-size: 1.6em;
-  display: inline-block;
+  font-size: 1em;
+  display: block;
   text-decoration: none;
   transition: .3s;
   border-radius: 40px;
@@ -45,16 +41,27 @@ body {
 .container{
   /* background-color:#800080; */
   position: absolute;
-  top: 15%;
+  top: 0%;
   left: 10%;
   right: 20%;
   width: 80%;
   height: 80%;
 }
+
+.mid-container{
+  /* background-color:blue; */
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  right: 20%;
+  width: 80%;
+  height: 80%;
+}
+
 .quote {
-  font-size: 2em;
+  font-size: 1.2em;
   text-align: left;
-  width:auto;
+  width:80%;
   font-weight: 400;
   line-height: 1.1;
   position: relative;
@@ -79,7 +86,7 @@ body {
   content: "—";
 } */
 .source {
-  line-height: 1.5rem;
+  line-height: 1rem;
   text-align: right;
   font-size: 1rem;
   text-align: center;
@@ -111,73 +118,4 @@ body {
 }
 .tag:before{
   content: "category: ";
-}
-
-
-/* Adjust for mobile devices  */
-
-@media (max-width: 420px) {
-  body{
-    font-size: 16pt;
-  }
-  .container{
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    right: 5%;
-    width: 90%;
-  }
-  .quote {
-    font-size: 1.5em;
-  }
-  .quote:before, .quote:after {
-    font-size: 1rem;
-    line-height: 1rem;
-    position: absolute;
-  }
-  .quote:before {
-    content: "“";
-    top: .25em;
-    left: -.5em;
-  }
-  .quote:after {
-    content: "”";
-    bottom: 1em;
-    margin-left: .1em;
-    position: absolute;
-  }
-  .source {
-    line-height: 1rem;
-    text-align: right;
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .citation  {
-    line-height: 1em;
-    text-align: right;
-    font-size: 1em;
-    text-align: center;
-  }
-
-  .tag{
-    font-size: 1em;
-    line-height: 1em;
-    text-align: center;
-    margin-right: 4em;
-    font-style: normal;
-    position: relative;
-    margin: 0;
-  }
-
-  #loadQuote {
-    font-size: 1.6em;
-  }
-
-}
-
-@media (min-width: 620px and max-width: 820px){
-  .quote {
-    font-size: 1.6em;
-  }
 }
