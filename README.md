@@ -11,23 +11,20 @@
   - increased usable space of .container div
   - increased font size for large screens
   - trying to use containers more efficiently
-  - tweaked some text formating also  
+  - tweaked some text formatting also  
   - new font color
 
 ## **Wish list**
 
-- use better font styling 
+- use better font styling
 
 - add Accessibility features
 
 - add multi-language support
 
 - Standard UI Flat Icons
-
   - I am considering added flat icons for standard UI
-    - like loading another qoute.
-  - for now I have replaced the old "load another qoute" button with a special char instead
- - there are many but I would like to use flat ui icons that are standards based and open source
+  - for now I using a special char instead
 
 #### **[Check out one option I am considering : CoreUI.io/icons on GitHub](https://github.com/coreui/coreui-icons)**
 
@@ -36,9 +33,7 @@
   - The "My Random Quotes" Web App is simple.
     - It's just css styling, javascript and some json.
 
-
   - Provides a beautiful, simple user experience.
-
 
   - The challenge will be to maintain this simplicity as more features and functionality are added.
 
