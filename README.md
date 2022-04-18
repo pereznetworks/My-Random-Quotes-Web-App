@@ -18,6 +18,8 @@
 
 - use better font styling
 
+- add multi-language support
+
 - add Accessibility features
 
 - add multi-language support
