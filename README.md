@@ -10,8 +10,15 @@
 
   - increased usable space of .container div
   - increased font size for large screens
-  - new location of and smaller flat icon for loadQuote button
+  - trying to use containers more efficiently
+  - tweaked some text formating also  
   - new font color
+
+## **Wish list**
+
+- add Accessibility features
+
+- add multi-language support
 
 - Standard UI Flat Icons
 
