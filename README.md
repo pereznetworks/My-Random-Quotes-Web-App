@@ -16,6 +16,8 @@
 
 ## **Wish list**
 
+- use better font styling 
+
 - add Accessibility features
 
 - add multi-language support
