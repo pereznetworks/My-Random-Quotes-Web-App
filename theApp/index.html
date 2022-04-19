@@ -10,18 +10,20 @@
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
 
-  <div class="container">
-    <div class="controlButtons">
+<body> <!-- new semantic elements -->
+
+  <main class="container">
+    <nav class="controlButtons">
       <button id="loadQuote">⟳</button>
-    </div>
-    <div class="mid-container">
-      <div id="quote-box">
-      </div>
-    </div>
-  </div>
-  <!--<i class="cil-reload"></i> -->
+    </nav>
+    <section class="mid-container">
+      <article id="quote-box">
+      </article>
+    </section>
+  </main>
+
+  <!-- js loads after html loads -->
   <script src="js/data.js"></script>
   <script src="js/getRandom.js"></script>
   <script src="js/printQuote.js"></script>
