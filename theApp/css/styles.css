@@ -13,18 +13,23 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
+p, span {
+  font-size: .8em;
+}
 /* for the app */
 header {
-  bottom: 5%;
+  top: 0%;
   position: absolute;
   width: 100%;
   margin: 0;
   padding: 0;
   display: block;
+  background-color: white;
+  color: gray;
 }
 
 header h4 {
-  font-size: 1em;
+  font-size: .8em;
   font-weight: normal;
   width: 50%;
   display: inline-block;
@@ -32,8 +37,23 @@ header h4 {
   padding: 0;
 }
 
+header p {
+  font-weight: normal;
+  width: 100%;
+  margin: .1em;
+  text-align: center;
+}
+header span {
+  font-weight: italic;
+  width: 50%;
+  margin: .1em;
+  text-align: center;
+}
+
 footer {
-  bottom: 1%;
+  /* background-color: white; */
+  /* color: gray; */
+  bottom: 0%;
   position: absolute;
   width: 100%;
   margin: 0;
@@ -41,24 +61,17 @@ footer {
   display: block;
   text-align: center;
 }
-footer p {
-  font-size: 1em;
+footer a {
+  font-size: .8em;
   font-weight: normal;
   width: 100%;
-}
-footer span {
-  font-size: .8em;
-  font-weight: italic;
-  width: 50%;
-}
-footer p, footer span  {
   margin: .1em;
   text-align: center;
 }
 
 .controlButtons {
   position: absolute;
-  top: 5%;
+  top: 15%;
   left: 5%;
   right: 80%;
   width: 80%;
@@ -82,7 +95,7 @@ footer p, footer span  {
 .container{
   /* background-color:#800080; */
   position: absolute;
-  top: 0%;
+  top: 10%;
   left: 10%;
   right: 20%;
   width: 80%;
@@ -93,7 +106,7 @@ footer p, footer span  {
   /* background-color:blue; */
   position: absolute;
   top: 25%;
-  left: 10%;
+  left: 15%;
   right: 20%;
   width: 80%;
   height: 80%;
