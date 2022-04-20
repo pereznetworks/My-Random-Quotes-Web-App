@@ -14,6 +14,47 @@ body {
 }
 
 /* for the app */
+header {
+  bottom: 5%;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+header h4 {
+  font-size: 1em;
+  font-weight: normal;
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  bottom: 1%;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+footer p {
+  font-size: 1em;
+  font-weight: normal;
+  width: 100%;
+}
+footer span {
+  font-size: .8em;
+  font-weight: italic;
+  width: 50%;
+}
+footer p, footer span  {
+  margin: .1em;
+  text-align: center;
+}
 
 .controlButtons {
   position: absolute;
