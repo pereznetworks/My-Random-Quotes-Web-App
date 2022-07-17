@@ -1,7 +1,7 @@
 # Technical README
   - So this a kind of code-review for My Random Quote web app.
 
-## see [README.MD](README.md)for newer updates
+### see [README.MD](./README.md)for newer updates
 
 ## Changes as of 7/20/2020
   - part of move towards porting to other frameworks and mobile device development
