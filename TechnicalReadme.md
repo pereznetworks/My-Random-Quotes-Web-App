@@ -1,6 +1,8 @@
 # Technical README
   - So this a kind of code-review for My Random Quote web app.
 
+## see [README.MD](README.md)for newer updates
+
 ## Changes as of 7/20/2020
   - part of move towards porting to other frameworks and mobile device development
     - added div with id of controlButtons, absolute positioning, pinned to bottom of html body
@@ -137,4 +139,4 @@
   - using a randomColorNumber and randomColorArray
   - return colors[randomColorNumber]
 
-#### **[bach to My Random Quote README](README.md)** - **[back to Top](#Technical-README)**
+#### **[back to My Random Quote README](README.md)** - **[back to Top](#Technical-README)**
