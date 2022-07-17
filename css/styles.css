@@ -1,52 +1,137 @@
 /* layout changes...*/
 
-/* moved position, top, left, right and width from #quote-box to .container
-    elements with-in .container div, including #loadQuote button,
-    keep position and spacing relative to each other
-    and so appear to move when width and hieght of web page adjusted */
+/* mobile first */
 
-/* since as background-color is set to random colors
-   font color of elements changed to black so text is more readible and reduce "neon" affect
-
-/* added styling for the quote object's tag element */
-
-/* added meta tag name=viewport RWD, to index.html
-   and tweeked styling for mobile devices using @media (max-width: 420px)  */
+/* initial css defines smallest screen
+media queries define larger screens */
 
 body {
   text-align: center;
-  background-color:#800080;
-  color: black;
+  /* background-color:#800080; */
+  font-size: 16pt;
+  color: #212120;
   font-family: 'Playfair Display', serif;
 }
 
-.container{
+p, span {
+  font-size: .6em;
+}
+
+/* for the app */
+header {
+  top: 0%;
+  left: 5%;
   position: absolute;
-  top: 5%;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  color: black;
+}
+
+header h1 {
+  font-size: .8em;
+  font-weight: normal;
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+header p {
+  font-size: .6em;
+  font-weight: normal;
+  width: 100%;
+  margin: .1em;
+  text-align: center;
+}
+header span {
+  font-weight: italic;
+  width: 50%;
+  margin: .1em;
+  text-align: center;
+}
+
+footer {
+  /* background-color: white; */
+  /* color: gray; */
+  bottom: 0%;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+footer a {
+  font-size: .8em;
+  font-weight: normal;
+  width: 100%;
+  margin: .1em;
+  text-align: center;
+}
+
+.controlButtons {
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  right: 80%;
+  width: 90%;
+  height: 10%;
+  }
+
+#loadQuote {
+  font-size: 1.2em;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+  border-radius: 40px;
+  border: 2px solid transparent;
+}
+#loadQuote:hover {
+  background-color: #212120;
+}
+#loadQuote:focus {
+  outline: none;
+}
+.container{
+  /* background-color:#800080; */
+  position: absolute;
+  top: 10%;
   left: 10%;
-  right: 10%;
+  right: 20%;
   width: 80%;
+  height: 80%;
 }
-#quote-box {
-  line-height: .5;
+
+.mid-container{
+  /* background-color:blue; */
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  /* right: 5%; */
+  width: 90%;
+  height: 80%;
 }
+
 .quote {
-  text-align: left;
-  font-size: 4rem;
+  font-size: 1.2em;
+  text-align: center;
+  width:80%;
   font-weight: 400;
   line-height: 1.1;
   position: relative;
   margin: 0;
   }
 .quote:before, .quote:after {
-  font-size: 6rem;
-  line-height: 2.5rem;
+  /* line-height: 2.5rem; */
   position: absolute;
 }
 .quote:before {
   content: "“";
-  top: .25em;
-  left: -.5em;
+  /* top: .25em; */
+  margin-left: -.5em;
+  position: absolute;
 }
 .quote:after {
   content: "”";
@@ -54,18 +139,19 @@ body {
   margin-left: .1em;
   position: absolute;
 }
-.source:before {
+/* .source:before {
   content: "—";
-}
+} */
 .source {
-  line-height: 1.5rem;
-  text-align: right;
+  line-height: 1rem;
+  text-align: center;
   font-size: 1rem;
+  /* text-align: right; */
 }
 
 .citation  {
   font-style: italic;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   text-align: right;
   font-size: 1rem;
 }
@@ -84,86 +170,39 @@ body {
   font-style: normal;
   position: relative;
   margin: 0;
+  text-align: center;
 }
 .tag:before{
   content: "category: ";
 }
-#controlButtons {
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-  right: 10%;
-  width: 80%;
-}
-#loadQuote {
-  width: 12em;
-  display: inline-block;
-  top: 50%;
-  left: 50%;
-  margin-left: 6em;
-  margin: 1em;
-  bottom: 150px;
-  border-radius: 4px;
-  border: 2px solid black;
-  color: #fff;
-  background-color: #36b55c;
-  padding: 15px;
-  transition: .5s ;
-}
-#loadQuote:hover {
-  background-color: #808080/*rgba(255,255,255,.25)*/;
-}
-#loadQuote:focus {
-  outline: none;
-}
 
-@media (max-width: 420px) {
-  .container{
-    position: absolute;
-    top: 10%;
-    left: 5%;
-    right: 5%;
+/* media query covers screens larger than a smart phone */
+@media screen and (min-width: 768px) and (min-height: 600px) {
+
+  p, span {
+    font-size: 1em;
+  }
+
+  #loadQuote {
+    font-size: 1.4em;
+  }
+
+  .mid-container {
+    top: 15%;
   }
   .quote {
-    text-align: left;
-    font-size: 2.5rem;
-  }
-  .quote:before, .quote:after {
-    font-size: 1rem;
-    line-height: 1rem;
-    position: absolute;
-  }
-  .quote:before {
-    content: "“";
-    top: .25em;
-    left: -.5em;
-  }
-  .quote:after {
-    content: "”";
-    bottom: -.1em;
-    margin-left: .1em;
-    position: absolute;
+    font-size: 2em;
   }
   .source {
-    line-height: 1rem;
-    text-align: right;
-    font-size: 1rem;
+    font-size: 1.6em;
+    line-height: 1.8rem;
   }
-
-  .citation  {
-    line-height: 1rem;
-    text-align: right;
-    font-size: 1rem;
+  .citation {
+    font-size: .8em;
+    line-height: 1.8rem;
   }
-
-  .tag{
+  .tag {
     font-size: 1em;
-    line-height: 1em;
-    text-align: right;
-    margin-right: 4em;
-    font-style: normal;
-    position: relative;
-    margin: 0;
   }
 
 }
