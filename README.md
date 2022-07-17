@@ -6,13 +6,8 @@
 
 ## **NEW**
 
-- Formating and Spacing for Mobile Devices
-
-  - increased usable space of .container div
-  - increased font size for large screens
-  - trying to use containers more efficiently
-  - tweaked some text formatting also  
-  - new font color
+- using a Mobile first design
+- move to semantic html 
 
 ## **Wish list**
 
